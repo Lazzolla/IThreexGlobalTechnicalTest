@@ -1,0 +1,74 @@
+.container-app {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.card-app {
+    width: 100%;
+}
+.cardBody-app {
+    display: block;
+    text-align: center;
+    padding: 0 !important;
+
+    div {
+        width: 100%;
+    }
+    button {
+        width: 90%;
+    }
+    input {
+        margin: auto;
+        width: 90%;
+    }
+    select {
+        display: block;
+        margin: auto;
+        width: 90%;
+    }
+}
+.barcode-container-app {
+    button {
+        position: relative;
+        bottom: 3.5rem;
+    }
+}
+@media (min-width: 768px) {
+    .container-app {
+        display: flex;
+        justify-content: center;
+    }
+    .card-app {
+        width: 70%;
+    }
+    .cardBody-app {
+        display: block;
+        text-align: center;
+        div {
+            width: 100%;
+        }
+        button {
+            width: 470px;
+        }
+        input {
+            margin: auto;
+            width: 470px;
+        }
+        select {
+            display: block;
+            margin: auto;
+            width: 470px;
+        }
+    }
+    .barcode-container-app {
+        height: 25rem;
+        button {
+            position: relative;
+            bottom: 3.5rem;
+        }
+    }
+    .spinner-app {
+        width: 100px !important;
+        height: 100px !important;
+    }
+}
